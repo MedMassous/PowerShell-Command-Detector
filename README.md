@@ -76,7 +76,7 @@ cd powershell-command-detector
 
 2. Run the detector:
 ```bash
-python detector.py
+python Powershell-command-detector.py
 ```
 
 
