@@ -54,7 +54,7 @@ These techniques are frequently used in:
 
 ```
 powershell-command-detector/
-│── detector.py
+│── Powershell-command-detector.py
 │── logs.txt
 │── alerts.txt
 │── README.md
@@ -69,7 +69,7 @@ powershell-command-detector/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/powershell-command-detector.git
+git clone https://github.com/MedMassous/powershell-command-detector.git
 cd powershell-command-detector
 ```
 
