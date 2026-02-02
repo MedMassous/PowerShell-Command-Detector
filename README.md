@@ -1,12 +1,6 @@
 A beginner-friendly **blue team security tool** that analyzes Windows-style log files and detects **suspicious PowerShell command usage** commonly seen in malware, post-exploitation, and living-off-the-land attacks.
 
-
-This project is designed for:
-- SOC analysts (entry-level)
-- Blue team learners
-- Cybersecurity students
-- GitHub portfolio projects
-
+[![CodeFactor](https://www.codefactor.io/repository/github/medmassous/powershell-command-detector/badge)](https://www.codefactor.io/repository/github/medmassous/powershell-command-detector)
 
 ---
 
